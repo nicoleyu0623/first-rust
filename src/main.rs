@@ -1,4 +1,4 @@
-
-fn main() {
-    println!("ahahaha, this is a new world! ");
+fn main () {
+    println!("haha")
 }
+

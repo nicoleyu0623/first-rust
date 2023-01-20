@@ -19,7 +19,8 @@ fn main() {
 }
 
 /*
-    -
-    -
-    -
+    - &self: using immutable reference
+    - &mut self: using mutable reference
+    - self: table the ownership of the object, and moves it away from the caller,
+    owns the object.
  */

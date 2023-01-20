@@ -39,10 +39,12 @@ impl Library {
         self.books.is_empty()
     }
 
+    // borrowed read-write access to self
     fn add_book(&mut self, book: Book) {
         self.books.push(book)
     }
 
+    //r read only access to self
     fn print_books(&self) {
         for book in &self.books {
             println!("{}", book);

@@ -20,3 +20,16 @@ The types have widths as follows:
 * `bool` is 8 bit wide.
 
 
+# Common types
+
+-  `Option` and `Result` types: used for optional values and error handling.
+
+- `String`: the default string type used for owned data.
+
+- `Vec`: a standard extensible vector.
+
+- `HashMap`: a hash map type with a configurable hashing algorithm.
+
+- `Box`: an owned pointer for heap-allocated data.
+
+- `Rc`: a shared reference-counted pointer for heap-allocated data.

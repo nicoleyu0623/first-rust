@@ -1,0 +1,5 @@
+- `Iterator` and `IntoIterator` used in `for` loops,
+- `From` and `Into` used to convert values,
+- `Read` and `Write` used for IO,
+- `Add`, `Mul`, … used for operator overloading, and
+- `Drop` used for defining destructors.

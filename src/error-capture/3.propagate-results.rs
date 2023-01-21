@@ -22,3 +22,8 @@ fn main() {
     let username = read_username("config.dat");
     println!("username or error: {username:?}");
 }
+
+/*
+        username or error: Ok("alice")
+
+ */

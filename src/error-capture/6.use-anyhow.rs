@@ -2,6 +2,10 @@ use std::{fs, io};
 use std::io::Read;
 use thiserror::Error;
 use anyhow::{Context, Result};
+/*
+https://docs.rs/anyhow/latest/anyhow/
+ */
+
 
 #[derive(Error, Debug)]
 enum ReadUsernameError {
